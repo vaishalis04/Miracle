@@ -75,7 +75,7 @@
                     class="menu-wrapper d-flex align-items-center justify-content-end"
                   >
                     <div class="main-menu d-none d-lg-block">
-                      <nav>
+                      <!-- <nav>
                         <ul id="navigation">
                           <li class="active"><a href="index.html">Home</a></li>
                           <li
@@ -178,7 +178,7 @@
                               </div>
                             </div>
                           </li>
-                          <!-- <li><a href="courses.html">Courses</a></li> -->
+                          
                           <li><a href="">About</a></li>
                           <li>
                             <a href="#">Blog</a>
@@ -198,7 +198,156 @@
                             <a href="" class="btn btn3">Log in</a>
                           </li>
                         </ul>
+                      </nav> -->
+                      <nav>
+                        <ul id="navigation">
+                          <li class="active"><a href="index.html">Home</a></li>
+                          <li class="nav-item dropdown dropdown-hover position-static">
+                            <a
+                              data-mdb-dropdown-init
+                              class="nav-link dropdown-toggle"
+                              href="#"
+                              id="navbarDropdown"
+                              role="button"
+                              data-mdb-toggle="dropdown"
+                              aria-expanded="false"
+                            >
+                              Courses
+                            </a>
+                            <div
+                              class="dropdown-menu w-100 mt-0"
+                              aria-labelledby="navbarDropdown"
+                              style="
+                                border-top-left-radius: 0;
+                                border-top-right-radius: 0;
+                                max-height: 400px;
+                                overflow-y: auto;
+                              "
+                            >
+                              <div class="container">
+                                <div class="row my-4">
+                                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                    <h5 class="category-title">Software & Web Development</h5>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Python</li>
+                                      <li class="list-group-item">JAVA</li>
+                                      <li class="list-group-item">MERN</li>
+                                      <li class="list-group-item">PHP</li>
+                                      <li class="list-group-item">C / C++ / Data Structure</li>
+                                      <li class="list-group-item">Software Testing</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                    <h5 class="category-title">Digital Marketing</h5>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Digital Marketing</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                    <h5 class="category-title">IT Ops & Cyber Security</h5>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">IT Security & Ethical Hacking</li>
+                                      <li class="list-group-item">Cloud Computing</li>
+                                      <li class="list-group-item">Linux</li>
+                                    </ul>
+                                  </div>
+                                  <div class="col-12 col-md-6 col-lg-3 mb-3">
+                                    <h5 class="category-title">Data Science & Analytics</h5>
+                                    <ul class="list-group list-group-flush">
+                                      <li class="list-group-item">Data Science (ML + Big Data)</li>
+                                      <li class="list-group-item">Data Analytics (Big Data)</li>
+                                      <li class="list-group-item">Machine Learning</li>
+                                      <li class="list-group-item">Artificial Intelligence</li>
+                                    </ul>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </li>
+                          <li><a href="">About</a></li>
+                          <li>
+                            <a href="#">Blog</a>
+                            <ul class="submenu">
+                              <li><a href="">Blog</a></li>
+                              <li><a href="">Blog Details</a></li>
+                              <li><a href="">Element</a></li>
+                            </ul>
+                          </li>
+                          <li><a href="">Contact</a></li>
+                          <li class="button-header margin-left">
+                            <a href="#" class="btn">Join</a>
+                          </li>
+                          <li class="button-header">
+                            <a href="" class="btn btn3">Log in</a>
+                          </li>
+                        </ul>
                       </nav>
+                      
+                      <style>
+                        /* General Styles */
+                        .dropdown-menu {
+                          padding: 1rem;
+                        }
+                      
+                        .category-title {
+                          font-size: 1.8rem;
+                          font-weight: bold;
+                          margin-bottom: 0.5rem;
+                        }
+                      
+                        .list-group-item {
+                          font-size: 1.4rem;
+                          padding: 0.5rem 1rem;
+                        }
+                      
+                        /* Scrollable Dropdown for Small Screens */
+                        .dropdown-menu {
+                          max-height: 400px;
+                          overflow-y: auto;
+                        }
+                      
+                        /* Responsive Adjustments */
+                        @media (max-width: 768px) {
+                          .dropdown-menu {
+                            max-height: 300px;
+                          }
+                      
+                          .category-title {
+                            font-size: 1.5rem;
+                          }
+                      
+                          .list-group-item {
+                            font-size: 1.2rem;
+                          }
+                      
+                          .row {
+                            flex-wrap: wrap;
+                          }
+                      
+                          .col-md-6,
+                          .col-lg-3 {
+                            flex: 1 0 100%;
+                            max-width: 100%;
+                            margin-bottom: 1rem;
+                          }
+                        }
+                      
+                        @media (max-width: 576px) {
+                          .dropdown-menu {
+                            max-height: 250px;
+                          }
+                      
+                          .category-title {
+                            font-size: 1.4rem;
+                          }
+                      
+                          .list-group-item {
+                            font-size: 1rem;
+                            text-align: center;
+                          }
+                        }
+                      </style>
+                      
                     </div>
                   </div>
                 </div>
